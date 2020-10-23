@@ -1,0 +1,18 @@
+{
+  "name": "IP Address Retriever",
+  "version": "1.0",
+  "description": "Use to always have the IP Address displayed",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/favicon-16x16.png",
+      "32": "images/favicon-32x32.png"
+    }
+  },
+  "manifest_version": 2
+}
